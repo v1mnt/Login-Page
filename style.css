@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(55, 5, 136);
+}
+
+.container {
+    margin-top: 12.5rem;
+    background-color: rgb(129, 235, 253);
+    height: 30rem;
+    padding: 3rem 5rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.486);
+}
+
+.title {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.title h1 {
+    font-weight: 500;
+    font-size: 3rem;
+    color: rgb(55, 5, 136);
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.20);
+}
+
+#underline {
+    display: flex;
+    width: 40px;
+    height: 5px;
+    background-color: rgb(98, 0, 255);
+    background-image: linear-gradient(to right, rgb(55, 5, 136), rgb(0, 195, 255));
+    margin-left: 4.8rem;
+    margin-top: -0.93rem;
+    border-radius: 10px;
+}
+
+.input-field .text {
+    margin-bottom: 1rem;
+}
+
+.input-field {
+    margin-bottom: 1.5rem;
+}
+
+.input-field .text input {
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 0.2rem 0.7rem;
+    outline-style: none;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.20);
+}
+
+.input-field .password input {
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 0.2rem 0.7rem;
+    outline-style: none;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.20);
+}
+
+.forgot {
+    text-align: right;
+}
+
+.input-field .forgot a {
+    font-size: 12px;
+    color: rgb(55, 5, 136);
+}
+
+.button {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.button input {
+    font-size: 20px;
+    padding: 0.3rem 3rem;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    color: white;
+    background-image: linear-gradient(to right, rgb(55, 5, 136), rgb(0, 195, 255));
+    transition: all 0.3s ease;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.20);
+}
+
+.button input:hover {
+    letter-spacing: 3px;
+}
+
+.footer a{
+    display: flex;
+    align-items: center;
+}
+
+.footer img {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        margin-top: 20%;
+        padding: 3rem 1rem;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    .container {
+        margin-top: 3.12rem;
+    }
+}
